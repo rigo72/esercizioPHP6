@@ -7,13 +7,14 @@
 </head>
 <body>
     <?php
+        echo "<ul>";
         $N = 30;
         for ($i=1;$i<$N;$i++){
             if ($N%$i==0){
-                echo"<ul>{$i}</ul>";
+                echo"<li>{$i}</li>";
             }
         }      
-    
+        echo "</ul>";
     ?>
 </body>
 </html>
